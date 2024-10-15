@@ -7,4 +7,3 @@ setenforce 0
 # That can be "/dev/block/bootdevice/by-name" or something like that.
 mkdir -p /dev/block/platform/mtk-msdc.0/by-name/
 busybox mount -o bind /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/ /dev/block/platform/mtk-msdc.0/by-name/
-```
